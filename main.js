@@ -10,5 +10,5 @@ function createSVGElement(tag, ns, ...args) {
 }
 
 let svg = createSVGElement("svg", ns, {width: "500"}, {height: "500"}, {style: "background-color: black"});
-svg.append(createSVGElement("circle", ns, {cx: "100"}, {cy: "200"}, {r: "50"}, {style: "fill: white"}))
+svg.append(createSVGElement("circle", ns, {cx: "100"}, {cy: "200"}, {r: "50"}, {style: "fill: white"}));
 document.body.append(svg);
